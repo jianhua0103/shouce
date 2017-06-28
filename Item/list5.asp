@@ -27,10 +27,10 @@
 	</div>
 
 	<div class="erjilanmu animated fadeInUp">
-	  <li><a href="../Item/list5_1.asp" target="_self">个人基本信息更新</a></li>
-	  <li><a href="../Item/list5_2.asp" target="_self">集团门户网站、邮箱使用常见问题</a></li>
-	  <li><a href="../Item/list5_3.asp" target="_self">icome安装使用常见问题</a></li>
-	  <li><a href="../Item/list5_4.asp" target="_self">VPN权限申请</a></li>
+	  <li><a href="../Item/list5_1.html" target="_self">个人基本信息更新</a></li>
+	  <li><a href="../Item/list5_2.html" target="_self">集团门户网站、邮箱使用常见问题</a></li>
+	  <li><a href="../Item/list5_3.html" target="_self">icome安装使用常见问题</a></li>
+	  <li><a href="../Item/list5_4.html" target="_self">VPN权限申请</a></li>
 	</div>
     
 </div>
