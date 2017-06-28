@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<title>五险相关办理流程</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="target-densitydpi=device-dpi,width=640px, user-scalable=no"/>
+<meta name="MobileOptimized" content="320" />
+<meta name="Iphone-content" content="320" />
+<link href="../images/style.css" rel="stylesheet" type="text/css" />
+<link href="../images/theme/theme.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../ks_inc/jquery.js"></script>
+<script type="text/javascript" src="../ks_inc/common.js"></script>
+
+
+
+<script language=JavaScript type=text/JavaScript>
+//改变图片大小
+function resizepic(thispic){ if(thispic.width>600) thispic.width=600;}
+function showimg(src){	 $.dialog({id:'119',title:'查看原图：',content: '<div><img onload="if(600<this.offsetWidth)this.width=600;" style="max-width:600px" src="'+src+'"/></div>',max:false,min: false});}
+//无级缩放图片大小
+function bbimg(o){
+  return false;
+  var zoom=parseInt(o.style.zoom, 10)||100;
+  zoom+=event.wheelDelta/12;
+  if (zoom>0) o.style.zoom=zoom+'%';
+  return false;}
+</script>
+
+</head>
+
+<body style=" background:#FAF7ED;" oncontextmenu="self.event.returnValue=true" onselectstart="return false"> 
+
+<div class="content_bar"><a href="../Item/list3.asp">社保办事流程</a><a href="../index.html" class="home"><img src="../images/theme/home.png" /></a></div>
+
+<div class="content_title">医疗保险</div>
+
+<div class="content_titleinfo"></div>
+
+<div class="content">
+<div id="MyContent">
+ <p style="LINE-HEIGHT: 37px; MARGIN: 0px 0px 8px">
+  <span style="FONT-FAMILY: 仿宋_GB2312; FONT-SIZE: 18px">
+   <span style="FONT-FAMILY: Calibri"><strong>（1）险种简介：</strong>达到退休年龄时，医疗保险至少累计缴纳
+   25年,否则须一次性补缴不足年限，才能享受医疗保险待遇。<br><strong>（2）医疗报销：</strong><br>①联网结算报销：员工在社保定点门诊、医院看病或住院治疗可持社保卡进行联网结算。暂无社保卡但需在北海市医院住院的员工可到北海市政务服务中心一楼大厅3、4号窗口开具社保临时卡。注：社保定点医院查询网址：<a style="color:blue" href="http://www.gxbhsi.cn/">http://www.gxbhsi.cn/</a>。<br>②医疗手工报销：<br>(a)北海市内：暂无社保卡的员工（包括但不限于未制卡、挂失卡）到社保定点医院看病后可持以下材料进行报销：发票、病历本、住院记录、出院证明、用药清单及其他需要的检查材料。注：暂无社保卡的员工门诊看病不予报销。（尽可能到社保定点医院看病）<br>(b)北海市外：员工到北海市外住院治疗后须以下材料进行报销：转院转诊证明、发票、病历本、住院记录、出院证明、用药清单及其他需要的检查材料。<br><strong>(3)咨询电话：</strong><a style="color:blue" href="tel:0779-2063203">0779-2063203</a>
+   </span>
+  </span>
+ </p>
+</div>
+</div>
+
+<div class="content_foot">(作者：华南公司人力资源部)</div>
+
+<div class="shangxiapian">
+<strong>上一篇：</strong><a href="../Item/Show3_2_1.asp">养老保险</a><Br/>
+<strong>下一篇：</strong><a href="../Item/Show3_2_3.asp">失业保险</a>	
+</div>
+		 
+</body>
+</html>
